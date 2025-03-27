@@ -1,12 +1,12 @@
 Summary: Courier Unicode Library
 Name: courier-unicode
 Epoch: 2
-Version: 2.1.2
+Version: 2.3.1
 Release: 1%{?dist}%{?courier_release}
 License: GPLv3
 Group: System Environment/Libraries
 URL: http://www.courier-mta.org/unicode/
-Source: http://download.sourceforge.net/courier/courier-unicode-2.1.2.tar.bz2
+Source: http://download.sourceforge.net/courier/courier-unicode-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: perl
 BuildRequires: gcc-c++
